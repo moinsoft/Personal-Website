@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;700&family=Roboto+Mono:wght@400;500;700&display=swap');
 
 * {
   margin: 0;
@@ -20,6 +20,10 @@ img {
   margin: 0 auto;
 }
 
+.section{
+  margin-top: 100px;
+}
+
 /* ===========================================
 Header Section
 =============================================== */
@@ -31,7 +35,7 @@ Header Section
 
 .header__area ul li{
   display: inline-block;
-  background-image: linear-gradient(45deg,#575BDE,#452CBB);
+  background-image: linear-gradient(45deg,#6A29E9,#4B73E2);
   padding: 10px 0;
   border-radius: 10px;
 }
@@ -42,4 +46,48 @@ Header Section
   font-weight: bold;
   font-size: 16px;
   padding: 10px 20px;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+  
+}
+
+/* .hero__description{
+  ma
+} */
+
+
+.banner__description, .banner__img{
+  width: 50%;
+  padding: 2%;
+}
+
+
+.banner__description h1{
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.name__highlight{
+  color: #F46360;
+}
+
+
+.banner__description h3{
+  margin: 60px 0;
+}
+
+
+.banner__description a{
+  text-decoration: none;
+  background-image: linear-gradient(45deg, #FF8063, #F46060);
+  padding: 10px 25px;
+  border-radius: 5px;
+  color: white;
+  font-weight: 700;
 }

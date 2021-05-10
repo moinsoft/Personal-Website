@@ -50,6 +50,7 @@ Header Section
 
 .flex{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   
 }
@@ -79,7 +80,7 @@ Header Section
 }
 
 
-.banner__description a{
+.link__btn{
   text-decoration: none;
   background-image: linear-gradient(45deg, #FF8063, #F46060);
   padding: 10px 25px;
@@ -109,6 +110,7 @@ Work Area
 
 .work__list{
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   padding: 2%;
@@ -133,4 +135,58 @@ Work Area
 
 .single__work p{
   font-size: 11px;
+}
+
+
+/* ===========================================
+Contact Area
+=============================================== */
+
+#contact__area{
+  margin-bottom: 100px;
+}
+
+.contact__bg{
+  background-image: url(../assets/contact-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 10.2%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.contact__bg h1{
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+  color: #ffffff;
+}
+
+
+
+
+/* ===========================================
+Footer Area
+=============================================== */
+
+.footer{ 
+  text-align: center;
+}
+
+.footer h1{
+  margin: 30px 0;
+}
+
+.social__link ul li{
+  display: inline-block;
+}
+
+.social__link ul li a{
+  text-decoration: none;
+  color: red;
+  font-size: 50px;
+  padding: 30px 10px;
 }

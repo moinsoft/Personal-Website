@@ -54,10 +54,6 @@ Header Section
   
 }
 
-/* .hero__description{
-  ma
-} */
-
 
 .banner__description, .banner__img{
   width: 50%;
@@ -73,7 +69,7 @@ Header Section
 }
 
 
-.name__highlight{
+.name__highlight, .title__highlight{
   color: #F46360;
 }
 
@@ -90,4 +86,51 @@ Header Section
   border-radius: 5px;
   color: white;
   font-weight: 700;
+}
+
+/* ===========================================
+Work Area
+=============================================== */
+
+#work__area{
+  background: #E5E5E5;
+  padding-bottom: 100px;
+}
+
+.section__title{
+  text-align: center;
+  font-size: 2rem;
+  padding: 70px 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: 'Oswald', sans-serif;
+}
+
+
+.work__list{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+}
+
+.single__work{
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  background-color: white;
+  padding: 2%;
+  margin: 0 2%;
+}
+
+.single__work img{
+  width: 100%;
+}
+
+.single__work h4{
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.single__work p{
+  font-size: 11px;
 }

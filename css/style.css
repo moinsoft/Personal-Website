@@ -144,11 +144,12 @@ Contact Area
   margin-bottom: 100px;
 }
 
-.contact__bg{
+.contact__bg {
   background-image: url(../assets/contact-bg.png);
+  padding: 9rem;
   background-repeat: no-repeat;
-  background-size: cover;
-  padding: 10.2%;
+  background-position: center;
+  background-size: contain;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
